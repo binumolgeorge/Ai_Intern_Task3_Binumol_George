@@ -53,6 +53,27 @@ The engine computes a match score (out of 100) based on:
 We use `sentence-transformers` from Hugging Face for skill and project matching using **cosine similarity** on embeddings.
 
 ---
+## Outputs
+Below are the outputs generated from the Google Colab notebook:
+
+### CSV Files (Uploaded in this repo):
+
+| File Name                                        | Description                                              |
+|--------------------------------------------------|----------------------------------------------------------|
+| `Top3_Founder_Matches.csv`                      | Top 3 matches per Founder (without key reasons)          |
+| `Top3_Provider_Matches.csv`                     | Top 3 matches per Provider (without key reasons)         |
+| `Top3_Founder_Matches_With_Reasons.csv`         | Top 3 Founder matches with scores + key matching reasons |
+| `Top3_Provider_Matches_With_Reasons.csv`        | Top 3 Provider matches with scores + key matching reasons |
+| `Full_Match_Matrix.csv`                         | All scores between all Founder–Provider combinations     |
+
+### 📊 Visual Output (in Colab notebook):
+
+- **Heatmap** showing all Founder ↔ Provider match scores (`match_matrix`)
+  - Generated using `seaborn` in the `.ipynb` notebook
+  - Helps visualize which combinations score higher
+[Click here to open the Colab notebook](https://colab.research.google.com/drive/12ufl2nO8MxiudkO3lxrcpsuovVpOChAy?usp=sharing)
+
+---
 ## Example Output
 
 | Founder ID | Matched Provider ID | Match Score | Key Matching Reasons                |
