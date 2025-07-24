@@ -34,7 +34,7 @@ Each user profile includes fields such as:
 - **Providers**: user_type, expertise_area, industry_preference, core_skill, availability
 
 ---
-Matching Logic
+## Matching Logic
 
 The engine computes a match score (out of 100) based on:
 
