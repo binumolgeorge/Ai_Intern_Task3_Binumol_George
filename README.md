@@ -75,8 +75,8 @@ CSV files:
 We built a Streamlit dashboard for real-time exploration of matches.
 ## Live Demo (Streamlit Cloud)
 
-🌐 **Try it live:**  
-👉 [Click here to open the dashboard](https://task3binumolgeorge-myzc66hefgkfx6b3t8shek.streamlit.app/)
+**Try it live:**  
+[Click here to open the dashboard](https://task3binumolgeorge-myzc66hefgkfx6b3t8shek.streamlit.app/)
 
 
 ### Features:
