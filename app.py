@@ -32,7 +32,7 @@ with tab1:
     st.altair_chart(bar_chart, use_container_width=True)
 
 with tab2:
-    st.subheader(" Top Matches for a Service Provider or Mentor")
+    st.subheader(" Top Matches for a Service Provider/Mentor")
     provider_ids = sorted(provider_df["Provider ID"].unique())
     selected_provider = st.selectbox("Select a Provider ID", provider_ids)
 
