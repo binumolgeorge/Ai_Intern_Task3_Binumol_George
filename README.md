@@ -5,7 +5,7 @@ This project simulates intelligent matchmaking between **Founders** and **Servic
 ---
 
 ## Objective
-To build a Recommendation Engine that simulates intelligent matchmaking between users on a platform like ScaleDux — connecting Founders with the most relevant Service Providers and Mentors, and vice versa. 
+To build a Recommendation Engine that simulates intelligent matchmaking between users on a platform like ScaleDux, connecting Founders with the most relevant Service Providers and Mentors, and vice versa. 
 
 ---
 
