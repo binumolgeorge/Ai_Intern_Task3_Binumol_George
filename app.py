@@ -9,7 +9,7 @@ provider_df = pd.read_csv("Top3_Provider_Matches_With_Reasons.csv")
 st.set_page_config(page_title="Startup Matching Engine", layout="wide")
 
 st.title(" Startup Recommendation Engine Dashboard")
-st.markdown("Matchmaking between **Founders** and **Service Providers** based on skills, domains, and timeline fit.")
+st.markdown("Matchmaking between **Founders** and **Service Providers and Mentors** based on skills, domains, and timeline fit.")
 
 tab1, tab2 = st.tabs([" Founder Recommendations", " Provider Recommendations"])
 
