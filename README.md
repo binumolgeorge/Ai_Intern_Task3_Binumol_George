@@ -1,7 +1,7 @@
 # Task3_Binumol_George
 # Startup Matching Recommendation Engine
 
-This project simulates intelligent matchmaking between **Founders** and **Service Providers **, similar to platforms like ScaleDux. It uses AI-based scoring and semantic similarity to recommend the most relevant matches based on domain, skills, project type, and timeline fit.
+This project simulates intelligent matchmaking between **Founders** and **Service Providers**, similar to platforms like ScaleDux. It uses AI-based scoring and semantic similarity to recommend the most relevant matches based on domain, skills, project type, and timeline fit.
 
 ---
 
