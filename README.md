@@ -68,7 +68,7 @@ Below are the outputs generated from the Google Colab notebook:
 
 ### 📊 Visual Output (in Colab notebook):
 
-- **Heatmap** showing all Founder ↔ Provider match scores (`match_matrix`)
+- **Heatmap** 'heatmap.png' showing all Founder ↔ Provider match scores (`match_matrix`)
   - Generated using `seaborn` in the `.ipynb` notebook
   - Helps visualize which combinations score higher
     
