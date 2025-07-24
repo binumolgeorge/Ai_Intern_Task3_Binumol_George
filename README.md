@@ -62,9 +62,9 @@ Below are the outputs generated from the Google Colab notebook:
 | `Top3_Provider_Matches_With_Reasons.csv`        | Top 3 Provider matches with scores + key matching reasons |
 | `Full_Match_Matrix.csv`                         | All scores between all Founder–Provider combinations     |
 
-### 📊 Visual Output (in Colab notebook):
+### 📊 Visual Output (Uploaded in this repo):
 
-- **Heatmap** 'heatmap.png' showing all Founder ↔ Provider match scores (`match_matrix`)
+- **Heatmap** `Heatmap.png` showing all Founder ↔ Provider match scores (`match_matrix`)
   - Generated using `seaborn` in the `.ipynb` notebook
   - Helps visualize which combinations score higher
     
