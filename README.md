@@ -71,6 +71,7 @@ Below are the outputs generated from the Google Colab notebook:
 - **Heatmap** showing all Founder ↔ Provider match scores (`match_matrix`)
   - Generated using `seaborn` in the `.ipynb` notebook
   - Helps visualize which combinations score higher
+    
 [Click here to open the Colab notebook](https://colab.research.google.com/drive/12ufl2nO8MxiudkO3lxrcpsuovVpOChAy?usp=sharing)
 
 ---
