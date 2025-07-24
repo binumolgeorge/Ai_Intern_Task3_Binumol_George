@@ -15,7 +15,7 @@ To answer:
 
 ## How It Works
 
-We use a hybrid recommendation approach combining:
+Uses a hybrid recommendation approach combining:
 - **Structured matching** (industry, skill, availability)
 - **Semantic similarity** (via Hugging Face Transformers)
 - **Scoring system out of 100** for every match
@@ -50,7 +50,7 @@ The engine computes a match score (out of 100) based on:
 | **Timeline Fit**     | Availability vs project deadline                   | 15     |
 | **Stage Alignment**  | Optional alignment of startup stage with expertise | 10     |
 
-We use `sentence-transformers` from Hugging Face for skill and project matching using **cosine similarity** on embeddings.
+Uses `sentence-transformers` from Hugging Face for skill and project matching using **cosine similarity** on embeddings.
 
 ---
 ## Outputs
@@ -78,12 +78,14 @@ Below are the outputs generated from the Google Colab notebook:
 
 | Founder ID | Matched Provider ID | Match Score | Key Matching Reasons                |
 |------------|---------------------|-------------|-------------------------------------|
-| F001       | S012                | 87.45       | Skill Match, Industry Match         |
-| F001       | S009                | 82.32       | Skill Match, Project Type Match     |
+| F001       | S008                | 69.43       | Industry Match, Skill Match, Timeline Fit     |
+| F001       | S015                | 66.38       | Industry Match, Skill Match, Timeline Fit     |
+
 
 | Provider ID | Matched Founder ID | Match Score | Key Matching Reasons                     |
 |-------------|--------------------|-------------|------------------------------------------|
-| S001        | F011               | 84.90       | Skill Match, Timeline Fit, Industry Match |
+| S001	      | F043               |	70         | Skill Match, Project Type Match, Timeline Fit   |
+| S001        |	F044               |	46.02      | Industry Match, Project Type Match              |
 
 CSV files:
 - `Top3_Founder_Matches_With_Reasons.csv`
@@ -93,7 +95,7 @@ CSV files:
 
 ## Interactive Dashboard
 
-We built a Streamlit dashboard for real-time exploration of matches.
+Built a Streamlit dashboard for real-time exploration of matches.
 ## Live Demo (Streamlit Cloud)
 
 **Try it live:**  
